@@ -1,8 +1,8 @@
-##Task
+## Task
 
 To make a search engine using a given dataset of products
 
-##Approach
+## Approach
 
 As the dataset of products given is unlabelled containing only one column having the name of the products.
 
@@ -13,11 +13,11 @@ Hence to make the search more accurate and semantic 4 scrapers are made to colle
 
 <Scrapers Code>
 
-##Algorithms Used
+## Algorithms Used
 
 The final results are given by using several algorithms.
 
-###Kmeans Clustering with TF-IDF vectorizer
+### Kmeans Clustering with TF-IDF vectorizer
 
 Word embeddings of textual description products are converted using TF-IDF Vectorizer and then clustering is done using Kmeans with K=10000 (selected after using Elbow method).
 
@@ -35,7 +35,7 @@ clustering is done using Kmeans with K=10000 (selected after using the Elbow met
 
 nearest cluster data points to the given query are selected as results.
 
-###Content-based search engine using Word Embeddings
+### Content-based search engine using Word Embeddings
 
 average Word2Vec and TF-IDF Word2Vec are be used to build the engine.
 
@@ -43,14 +43,14 @@ A simple neural network model with a single hidden layer is used. It predicted t
 
 <Training Code>
 
-####average Word2Vec
+#### average Word2Vec
 
 Sum all the vectors and divide the same by a total number of words in the description
 
 <pic>
 
 
-####TF-IDF Word2Vec
+#### TF-IDF Word2Vec
 
 <pic>
 
@@ -59,7 +59,7 @@ The final result is given by calculating cosine similarity between the query and
 
 
 
-##Steps to run the code
+## Steps to run the code
 
 Clone this repo 
 Open the cloned directory
