@@ -46,14 +46,12 @@ A simple neural network model with a single hidden layer is used. It predicted t
 #### average Word2Vec
 
 Sum all the vectors and divide the same by a total number of words in the description
-
-<pic>
-
+  
+![1_WvyAn4dQq3rxvPot8-dvsg](https://user-images.githubusercontent.com/44580998/125311541-1b9c0d00-e351-11eb-8162-47166c969f56.png)
 
 #### TF-IDF Word2Vec
 
-<pic>
-
+![1_yZtMrZlG4SeemjHQIAtffg](https://user-images.githubusercontent.com/44580998/125311531-1b037680-e351-11eb-8542-ecf389365c29.png)
 
 The final result is given by calculating cosine similarity between the query and the input dataset
 
