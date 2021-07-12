@@ -25,7 +25,7 @@ Word embeddings of textual description products are converted using TF-IDF Vecto
 
 nearest cluster data points to the given query are selected as results.
 
-###Kmeans Clustering with Google pre-trained embeddings
+### Kmeans Clustering with Google pre-trained embeddings
 
 As the dataset contains Hindi terms also so word embeddings with Wikipedia and news data are selected as pre-trained vectors.
 
