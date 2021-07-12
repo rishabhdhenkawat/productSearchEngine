@@ -61,11 +61,11 @@ The final result is given by calculating cosine similarity between the query and
 
 ## Steps to run the code
 
-Clone this repo 
-Open the cloned directory
-run pip install  -r requirements.txt
-Download the trained weights and dataset from the given link
-Run main. ipnyb to explore all the algorithms and search the queries
+- Clone this repo 
+- Open the cloned directory
+- run pip install  -r requirements.txt
+- Download the trained weights and dataset from the given link
+- Run main. ipnyb to explore all the algorithms and search the queries
 
 
 
