@@ -14,7 +14,7 @@ Hence to make the search more accurate and semantic 4 scrapers are made to colle
 
 [Scrapers Code](https://github.com/rishabhdhenkawat/productSearchEngine/tree/main/scapers)
 
-![final search engine flow](https://user-images.githubusercontent.com/44580998/125502720-ad637f7f-f623-45e2-8e2c-394c2ebac671.png)
+![final search engine flow](![final search engine flow](https://user-images.githubusercontent.com/44580998/125502873-35d727d3-f9de-4b7e-98e6-8897ad234eff.png))
 ## Algorithms Used
 
 ###### The final results are given by using several algorithms.
