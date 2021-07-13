@@ -15,7 +15,7 @@ Hence to make the search more accurate and semantic 4 scrapers are made to colle
 
 ## Algorithms Used
 
-The final results are given by using several algorithms.
+######The final results are given by using several algorithms.
 
 ### Kmeans Clustering with TF-IDF vectorizer
 
@@ -54,7 +54,7 @@ Sum all the vectors and divide the same by a total number of words in the descri
 
 ![1_WvyAn4dQq3rxvPot8-dvsg](https://user-images.githubusercontent.com/44580998/125311541-1b9c0d00-e351-11eb-8162-47166c969f56.png)
 
-The final result is given by calculating cosine similarity between the query and the input dataset
+######The final result is given by calculating cosine similarity between the query and the input dataset
 
 #### CNN 
 
