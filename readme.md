@@ -61,14 +61,23 @@ Sum all the vectors and divide the same by a total number of words in the descri
 ### Custom CNN 
 
 Unalabelled product data have been categorized using the clusters gven by Kmeans and convolution neural nets have been used to search the best fit product as the given query
-  
+
+[Kaggle training code](https://www.kaggle.com/rishabhdhenawat/cnn-search-engine)
+
+[Traning Code](https://github.com/rishabhdhenkawat/productSearchEngine/blob/main/training%20codes/cnn%20search%20engine.ipynb)
+
+
 ##### Custom CNN Architecture    
 ![cnn arch](https://user-images.githubusercontent.com/44580998/125443007-1178f9c6-885a-4688-8472-35252bd93188.JPG)
   
   
-  
-[Traning Code](https://github.com/rishabhdhenkawat/productSearchEngine/blob/main/training%20codes/cnn%20search%20engine.ipynb)
+##### Custom CNN Taining Epochs and Accuracy
+![Custom CNN Taining Epochs and Accuracy](https://user-images.githubusercontent.com/44580998/125499525-3ecdfc42-3e67-4a1c-8d9d-016ab7662e45.JPG)
+
  
+
+###### Training on LSTM and GRU traning is also done but accuracy was not upto the mark for the models
+[Kaggle code](https://www.kaggle.com/rishabhdhenawat/lstm-gru) 
 
 
 ## Steps to run the code
