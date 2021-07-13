@@ -6,7 +6,7 @@ To make a search engine using a given dataset of products
 
 As the dataset of products given is unlabelled containing only one column having the name of the products.
 
-[Given Dataset](https://github.com/rishabhdhenkawat/productSearchEngine/blob/main/dataset/products%20-%20products.csv){:target="_blank" rel="noopener"}
+[Given Dataset](https://github.com/rishabhdhenkawat/productSearchEngine/blob/main/dataset/products%20-%20products.csv)
 
 Hence to make the search more accurate and semantic 4 scrapers are made to collect descriptions of products using Bing Search and use cases of each product is collected.
 
