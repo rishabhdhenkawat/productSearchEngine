@@ -56,7 +56,7 @@ Sum all the vectors and divide the same by a total number of words in the descri
 
 ###### The final result is given by calculating cosine similarity between the query and the input dataset
 
-#### CNN 
+#### Custom CNN 
 
 Unalabelled product data have been categorized using the clusters gven by Kmeans and convolution neural nets have been used to serach the best fit product as the given query
   
