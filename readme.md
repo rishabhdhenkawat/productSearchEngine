@@ -85,8 +85,8 @@ Unalabelled product data have been categorized using the clusters gven by Kmeans
 - Clone this repo 
 - Open the cloned directory
 - run pip install  -r requirements.txt
-- Download the trained weights and dataset from the given link
-- Run main. ipnyb to explore all the algorithms and search the queries
+- Download the folder from the given [link](https://drive.google.com/drive/folders/1-En9EiHroavDjU7APcfS4IUurCuhIhPY?usp=sharing)
+- Run main.ipnyb to explore all the algorithms and search the queries
 
 
 
