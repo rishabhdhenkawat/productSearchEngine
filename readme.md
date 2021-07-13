@@ -6,12 +6,13 @@ To make a search engine using a given dataset of products
 
 As the dataset of products given is unlabelled containing only one column having the name of the products.
 
-<Given Dataset>
+[Given Dataset](https://github.com/rishabhdhenkawat/productSearchEngine/blob/main/dataset/products%20-%20products.csv)
 
 Hence to make the search more accurate and semantic 4 scrapers are made to collect descriptions of products using Bing Search and use cases of each product is collected.
-<DATASET WITH DESCRIPTION>
 
-<Scrapers Code>
+[DATASET WITH DESCRIPTION](https://github.com/rishabhdhenkawat/productSearchEngine/blob/main/dataset/final%20main.csv)
+
+[Scrapers Code](https://github.com/rishabhdhenkawat/productSearchEngine/tree/main/scapers)
 
 ## Algorithms Used
 
@@ -21,7 +22,7 @@ Hence to make the search more accurate and semantic 4 scrapers are made to colle
 
 Word embeddings of textual description products are converted using TF-IDF Vectorizer and then clustering is done using Kmeans with K=10000 (selected after using Elbow method).
 
-<Traing Code>
+[Traning Code](https://github.com/rishabhdhenkawat/productSearchEngine/blob/main/training%20codes/Kmens%20clustering%20with%20TF%20IDF%20Vectorizer.ipynb)
 
 nearest cluster data points to the given query are selected as results.
 
@@ -31,7 +32,7 @@ As the dataset contains Hindi terms also so word embeddings with Wikipedia and n
 
 clustering is done using Kmeans with K=10000 (selected after using the Elbow method).
 
-<Traing Code>
+[Traning Code](https://github.com/rishabhdhenkawat/productSearchEngine/blob/main/training%20codes/Kmeans%20clustering%20with%20google%20pretrained%20vectors.ipynb)
 
 nearest cluster data points to the given query are selected as results.
 
@@ -41,7 +42,8 @@ average Word2Vec and TF-IDF Word2Vec are be used to build the engine.
 
 A simple neural network model with a single hidden layer is used. It predicted the adjacent words for each and every word in the sentence or corpus. The weights that are learned by the hidden layer of the model and the same can be used as word embeddings.
 
-<Training Code>
+[Traning Code](https://github.com/rishabhdhenkawat/productSearchEngine/blob/main/training%20codes/Content%20Basded%20Search%20Engine%20with%20AvgWord2Vec%20and%20TfIDFWord2Vec%20.ipynb)
+
 
 #### average Word2Vec
 
@@ -60,12 +62,13 @@ Sum all the vectors and divide the same by a total number of words in the descri
 
 Unalabelled product data have been categorized using the clusters gven by Kmeans and convolution neural nets have been used to search the best fit product as the given query
   
-##### Custom Architecture    
+##### Custom CNN Architecture    
 ![cnn arch](https://user-images.githubusercontent.com/44580998/125443007-1178f9c6-885a-4688-8472-35252bd93188.JPG)
   
   
   
-<Trainig Code>  
+[Traning Code](https://github.com/rishabhdhenkawat/productSearchEngine/blob/main/training%20codes/cnn%20search%20engine.ipynb)
+ 
 
 
 ## Steps to run the code
